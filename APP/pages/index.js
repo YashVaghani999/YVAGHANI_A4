@@ -1,14 +1,14 @@
-
 /*********************************************************************************
 *  WEB422 – Assignment 4
+*
+*  Name: Yash Vaghani
+*  Student ID: 158336214
+*  Date: 10/19/23
+*
 *  I declare that this assignment is my own work in accordance with Seneca Academic Policy.  
 *  No part of this assignment has been copied manually or electronically from any other source
 *  (including web sites) or distributed to other students.
-* 
-*  Name: ___Riddhi Bharatkumar Patel___________________ Student ID: ____151212214______________ Date: ____3 Nov, 2023_______________
-*   Github Link : https://github.com/RiddhiPatel25/Assignment4-Web422
-Because of deployemnt issues, i have made the github repository public and have given the link above so that you can view my code. 
-There was a build error when deploying the project for some reason althought it is working perfectly fine on my pc. Hope you understand.
+*
 ********************************************************************************/ 
 
 
@@ -21,14 +21,14 @@ export default function Home () {
       <Row>
         <Col md={6}>
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg"
+            src="https://www.metmuseum.org/-/media/images/visit/plan-your-visit/pyv_fifthave-promo_1200x810.jpg?la=en&hash=A46023D46B6F0DD512384C153151ADDC"
             fluid
             rounded
           />
         </Col>
         <Col md={6}>
           <p>
-            The Metropolitan Museum of Art is one of the world's largest and most prestigious art museums. It is located in New York City, in the Central Park area.
+          The Metropolitan Museum of Art in New York City, colloquially "the Met",[a] is the largest art museum in the Americas. In 2022 it welcomed 3,208,832 visitors, ranking it the third most visited U.S museum, and eighth on the list of most-visited art museums in the world.
           </p>
           <p>
             For more information, visit {' '}
